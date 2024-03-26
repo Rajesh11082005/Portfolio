@@ -1,0 +1,203 @@
+.projects-sec{
+    height: 260vh;
+    /* border: 2px solid; */
+    padding: 4px;
+    background-color: #98c6eb43;
+    border-radius: 20px;
+    width: 90%;
+    margin: auto;
+}
+.project-main-wrapper{
+    width: 100%;
+    height: 245vh;
+    /* margin: auto; */
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    /* border: 2px solid; */
+}
+.project-wrapper>h1 {
+    font-size: 2rem;
+    text-align: center;
+    padding: 1rem;
+}
+
+.pcontainer {
+    position: relative;
+    height: 280px;
+    width: 290px;
+    border-radius: 20px;
+    /* border: 2px solid; */
+    margin: 0;
+}
+
+.pbox {
+    height: 100%;
+    width: 100%;
+    /* border: 2px solid; */
+    position: absolute;
+    border-radius: 20px;
+}
+
+.pbox1 {
+    z-index: 1;
+    background-color: #fff;
+    transition: 0.25s ease;
+    background-image: url("https://img.freepik.com/free-vector/japanese-temple-surrounded-by-nature_52683-46009.jpg?w=2000");
+    background-size: cover;
+    background-position: bottom;
+    overflow: hidden;
+}
+
+.a,
+.svg {
+    height: 30px;
+    width: 30px;
+    background-color: transparent;
+    border-radius: 100%;
+}
+
+.a {
+    position: absolute;
+    right: 36%;
+    top: 36%;
+}
+.svg{
+    padding: 3px;
+}
+
+.pinner-wrapper {
+    height: 150px;
+    background-color: #fff;
+    width: 150px;
+    /* border: 2px solid; */
+    border-radius: 100%;
+    transform: translate(-90px, 215px);
+    transition: 0.25s ease;
+    background-color: #98c6eb;
+}
+.svg > path, .svg{
+    transition: none;
+}
+.pbox2 {
+    z-index: 0;
+    background-color: #fff;
+    border: 2px dashed #98c6eb;
+}
+
+.pcontainer:hover .pbox1 {
+    /*   border-color:skyblue; */
+    transform: translate(-15px, -15px);
+}
+
+.pcontainer:hover .pinner-wrapper {
+    transform: translate(-40px, 170px);
+}
+
+.a:hover .svg {
+    background-color: black;
+}
+
+.a:hover .svg > path {
+    fill: #98c6eb;
+    transition:0.2s ease;
+}
+.pb1{
+    background-image: url("../assets/Screenshot\ from\ 2023-08-23\ 15-32-49.png");
+}
+.pb1:hover{
+    background-image: url("../assets/ezgif.com-video-to-gif\ \(5\).gif");
+}
+.pb2{
+    background-image: url("../assets/foxylearn.png");
+}
+.pb2:hover{
+    background-image: url("../assets/foxylearbp.gif");
+}
+.pb3 {
+    background-image: url("../assets/Screenshot\ 2024-03-18\ at\ 12.35.35\ PM.png");
+}
+
+.pb3:hover {
+    background-image: url("../assets/coloron.gif");
+}
+.pb4 {
+    background-image: url("../assets/pomodoro.png");
+}
+
+.pb4:hover {
+    background-image: url("../assets/pomodorop.gif");
+}
+.pb5 {
+    background-image: url("../assets/listify.png");
+}
+
+.pb5:hover {
+    background-image: url("../assets/listify.gif");
+}
+.pb6{
+    background-image: url("../assets/monkeytype.png");
+}
+.pb6:hover{
+    background-image: url("../assets/monkeytype.gif");
+}
+@media screen and (max-width: 385px) and (min-width:300px) {
+    .projects-sec{
+        height: 300vh;
+    }
+    .project-main-wrapper{
+        height: 280vh;
+    }
+}
+
+@media screen and (max-width:299px) and (min-width:250px) {
+    .projects-sec{
+        height: 265vh;
+    }
+    .project-main-wrapper{
+        height: 250vh;
+    }
+    .pcontainer{
+        height: 230px;
+        width: 220px;
+    }
+    .pinner-wrapper{
+        transform: translate(-80px, 165px);
+    }
+    .pcontainer:hover .pinner-wrapper {
+        transform: translate(-35px, 115px);
+    }
+}
+@media screen and (max-width:768px) and (min-width:600px) {
+    .projects-sec{
+        height: 125vh;
+    }
+    .project-main-wrapper{
+        height: 110vh;
+    }
+}
+
+@media screen and (max-width:1024px) and (min-width:769px) {
+    .projects-sec{
+        height: 150vh;
+    }
+    .project-main-wrapper{
+        height: 130vh;
+        /* border: 2px solid; */
+    }
+}
+
+@media screen and (max-width:3000px) and (min-width:1025px) {
+    .projects-sec{
+        height: 100vh;
+    }
+    .project-main-wrapper{
+        height: 85vh;
+        max-width: 1100px;
+        margin: auto;
+    }
+    
+}

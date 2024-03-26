@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/skills.css">
+    <link rel="stylesheet" href="css/projects.css">
+    <link rel="stylesheet" href="css/testimonials.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="shortcut icon" href="assets/Group 1.png" type="image/x-icon">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"
+        integrity="sha512-BdHyGtczsUoFcEma+MfXc71KJLv/cd+sUsUaYYf2mXpfG/PtBjNXsPo78+rxWjscxUYN2Qr2+DbeGGiJx81ifg=="
+        crossorigin="anonymous"></script>
+    <title>Portfolio</title>
+</head>
+
+<header class="header-wrapper" id="home">
+    <section class="for-grayscale">
+        <nav class="nav-bar">
+            <ul class="nav-wrapper">
+                <div class="svg-logo-rj-box">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="38" height="38" viewBox="0 0 64 64" fill="none">
+                        <path
+                            d="M0.0521915 14.887V0H24.8121C36.1493 0.53192 41.1681 8.98704 41.6135 21.8435C40.6838 36.3361 34.7657 42.4384 24.8121 42.9913H19.7591L37.0658 64H18.4958L0 41.0435V28.1043H24.8121C27.1357 27.4405 27.8133 25.9986 28.0966 21.8435C28.1728 17.5802 27.4436 16.0655 24.8121 14.887H0.0521915Z"
+                            fill=" rgb(37, 37, 37)" />
+                        <path
+                            d="M64 0H50.1515V45.2174C49.496 47.7121 48.6053 48.4587 46.3617 48.9739H32.5921L44.7195 63.8609C51.921 63.5046 54.9615 63.2123 60.1313 57.0435C62.5031 53.6182 63.7025 49.6527 64 44.2435V0Z"
+                            fill=" rgb(37, 37, 37)" />
+                    </svg>
+                </div>
+                <div class="line-icon" tabindex="-1">
+                    <div class="line1 line"></div>
+                    <div class="line2 line"></div>
+                    <div class="line3 line"></div>
+                </div>
+                <div class="list-wrapper">
+                    <li><a href="#home"><img src="assets/home-6-line.svg" alt="home">&ThinSpace;&ThinSpace;Home</a></li>
+                    <li><a href="#about"><img src="assets/user-6-line.svg" alt="about">&ThinSpace;&ThinSpace;About</a>
+                    </li>
+                    <li><a href="#project"><img src="assets/macbook-line.svg"
+                                alt="works">&ThinSpace;&ThinSpace;Projects</a></li>
+                    <li><a href="#test"><img src="assets/discuss-line.svg"
+                                alt="reviews">&ThinSpace;&ThinSpace;Testimonials</a></li>
+                    <li><a href="#contact"><img src="assets/contacts-line.svg"
+                                alt="contact">&ThinSpace;&ThinSpace;Contact</a></li>
+                </div>
+            </ul>
+        </nav>
+        <div class="intro-wrapper">
+            <div class="inner-intro-wrapper">
+                <h1>Hello</h1>
+                <div class="name-role-wrapper">
+                    <div class="iam">I'm</div>
+                    <div class="text"></div>
+                </div>
+                <div class="icons-intro-box">
+                    <a href="https://www.facebook.com/prajesh.rajesh.94043/" target="_blank">
+                        <svg width="30" height="30" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M14 13.5H16.5L17.5 9.5H14V7.5C14 6.47062 14 5.5 16 5.5H17.5V2.1401C17.1743 2.09685 15.943 2 14.6429 2C11.9284 2 10 3.65686 10 6.69971V9.5H7V13.5H10V22H14V13.5Z"
+                                fill="#98c6eb" />
+                        </svg>
+                    </a>
+                    <a href="https://www.instagram.com/rxj_xofcl._/" target="_blank">
+                        <svg width="30" height="30" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M12.001 9C10.3436 9 9.00098 10.3431 9.00098 12C9.00098 13.6573 10.3441 15 12.001 15C13.6583 15 15.001 13.6569 15.001 12C15.001 10.3427 13.6579 9 12.001 9ZM12.001 7C14.7614 7 17.001 9.2371 17.001 12C17.001 14.7605 14.7639 17 12.001 17C9.24051 17 7.00098 14.7629 7.00098 12C7.00098 9.23953 9.23808 7 12.001 7ZM18.501 6.74915C18.501 7.43926 17.9402 7.99917 17.251 7.99917C16.5609 7.99917 16.001 7.4384 16.001 6.74915C16.001 6.0599 16.5617 5.5 17.251 5.5C17.9393 5.49913 18.501 6.0599 18.501 6.74915ZM12.001 4C9.5265 4 9.12318 4.00655 7.97227 4.0578C7.18815 4.09461 6.66253 4.20007 6.17416 4.38967C5.74016 4.55799 5.42709 4.75898 5.09352 5.09255C4.75867 5.4274 4.55804 5.73963 4.3904 6.17383C4.20036 6.66332 4.09493 7.18811 4.05878 7.97115C4.00703 9.0752 4.00098 9.46105 4.00098 12C4.00098 14.4745 4.00753 14.8778 4.05877 16.0286C4.0956 16.8124 4.2012 17.3388 4.39034 17.826C4.5591 18.2606 4.7605 18.5744 5.09246 18.9064C5.42863 19.2421 5.74179 19.4434 6.17187 19.6094C6.66619 19.8005 7.19148 19.9061 7.97212 19.9422C9.07618 19.9939 9.46203 20 12.001 20C14.4755 20 14.8788 19.9934 16.0296 19.9422C16.8117 19.9055 17.3385 19.7996 17.827 19.6106C18.2604 19.4423 18.5752 19.2402 18.9074 18.9085C19.2436 18.5718 19.4445 18.2594 19.6107 17.8283C19.8013 17.3358 19.9071 16.8098 19.9432 16.0289C19.9949 14.9248 20.001 14.5389 20.001 12C20.001 9.52552 19.9944 9.12221 19.9432 7.97137C19.9064 7.18906 19.8005 6.66149 19.6113 6.17318C19.4434 5.74038 19.2417 5.42635 18.9084 5.09255C18.573 4.75715 18.2616 4.55693 17.8271 4.38942C17.338 4.19954 16.8124 4.09396 16.0298 4.05781C14.9258 4.00605 14.5399 4 12.001 4ZM12.001 2C14.7176 2 15.0568 2.01 16.1235 2.06C17.1876 2.10917 17.9135 2.2775 18.551 2.525C19.2101 2.77917 19.7668 3.1225 20.3226 3.67833C20.8776 4.23417 21.221 4.7925 21.476 5.45C21.7226 6.08667 21.891 6.81333 21.941 7.8775C21.9885 8.94417 22.001 9.28333 22.001 12C22.001 14.7167 21.991 15.0558 21.941 16.1225C21.8918 17.1867 21.7226 17.9125 21.476 18.55C21.2218 19.2092 20.8776 19.7658 20.3226 20.3217C19.7668 20.8767 19.2076 21.22 18.551 21.475C17.9135 21.7217 17.1876 21.89 16.1235 21.94C15.0568 21.9875 14.7176 22 12.001 22C9.28431 22 8.94514 21.99 7.87848 21.94C6.81431 21.8908 6.08931 21.7217 5.45098 21.475C4.79264 21.2208 4.23514 20.8767 3.67931 20.3217C3.12348 19.7658 2.78098 19.2067 2.52598 18.55C2.27848 17.9125 2.11098 17.1867 2.06098 16.1225C2.01348 15.0558 2.00098 14.7167 2.00098 12C2.00098 9.28333 2.01098 8.94417 2.06098 7.8775C2.11014 6.8125 2.27848 6.0875 2.52598 5.45C2.78014 4.79167 3.12348 4.23417 3.67931 3.67833C4.23514 3.1225 4.79348 2.78 5.45098 2.525C6.08848 2.2775 6.81348 2.11 7.87848 2.06C8.94514 2.0125 9.28431 2 12.001 2Z"
+                                fill="#98c6eb" />
+                        </svg>
+                    </a>
+                    <a href="https://www.linkedin.com/in/rajesh-p-4b3908241/" target="_blank">
+                        <svg width="30" height="30" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M6.94048 4.99993C6.94011 5.81424 6.44608 6.54702 5.69134 6.85273C4.9366 7.15845 4.07187 6.97605 3.5049 6.39155C2.93793 5.80704 2.78195 4.93715 3.1105 4.19207C3.43906 3.44699 4.18654 2.9755 5.00048 2.99993C6.08155 3.03238 6.94097 3.91837 6.94048 4.99993ZM7.00048 8.47993H3.00048V20.9999H7.00048V8.47993ZM13.3205 8.47993H9.34048V20.9999H13.2805V14.4299C13.2805 10.7699 18.0505 10.4299 18.0505 14.4299V20.9999H22.0005V13.0699C22.0005 6.89993 14.9405 7.12993 13.2805 10.1599L13.3205 8.47993Z"
+                                fill="#98c6eb" />
+                        </svg>
+                    </a>
+                    <a href="https://twitter.com/Executionhacker" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="27" height="27" viewBox="0 0 24 24" fill="none">
+                            <path
+                                d="M18.2048 2.25H21.5128L14.2858 10.51L22.7878 21.75H16.1308L10.9168 14.933L4.95084 21.75H1.64084L9.37084 12.915L1.21484 2.25H8.04084L12.7538 8.481L18.2048 2.25ZM17.0438 19.77H18.8768L7.04484 4.126H5.07784L17.0438 19.77Z"
+                                fill="#98B6CF" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+</header>
+
+<body>
+    <main class="main-wrapper">
+        <section class="about-wrapper" id="about">
+            <div class="for-wave"></div>
+            <h1>About Me.
+                <div class="under-line"></div>
+            </h1>
+            <div class="forcircle circle1"></div>
+            <div class="wrapper-about-img">
+                <div class="forcircle circle2"></div>
+                <div class="forcircle circle4"></div>
+                <div class="for-img-profile"></div>
+                <div class="about-me">
+                    <div class="about-role">
+                        <p>ZS Student/Developer/Designer</p>
+                    </div>
+                    <div class="content-about-me">
+                        <p>Greetings! I'm <span class="for-bold-name">Rajesh</span> from Madurai. I blend coding,
+                            travel, and design to craft unique experiences. With a strong educational foundation from
+                            Kendriya Vidyalaya, I'm on a mission to create impactful solutions through collaboration.
+                            Let's connect and make a positive difference together on this exciting journey!</p>
+                    </div>
+                    <button><a href="#contact" style="text-decoration: none;color: black;">Contact me</a></button>
+                </div>
+            </div>
+
+        </section>
+        <section class="skill-sec">
+            <div class="skill-wrapper">
+                <h1>Skills.
+                    <div class="under-line"></div>
+                </h1>
+                <div class="skills-bar">
+                    <div class="center">
+                        <div class="circle c1">
+                            <img src="assets/html5-line.svg" alt="">
+                            <div class="wave"></div>
+                            <div class="letter">90%</div>
+                        </div>
+                    </div>
+                    <div class="center">
+                        <div class="circle c2">
+                            <img src="assets/css3-fill.svg" alt="">
+                            <div class="wave"></div>
+                            <div class="letter">85%</div>
+                        </div>
+                    </div>
+                    <div class="center">
+                        <div class="circle c3">
+                            <img src="assets/icons8-js.svg" alt="">
+                            <div class="wave"></div>
+                            <div class="letter">95%</div>
+                        </div>
+                    </div>
+                    <div class="center">
+                        <div class="circle c4">
+                            <img src="assets/icons8-java.svg" alt="">
+                            <div class="wave"></div>
+                            <div class="letter">85%</div>
+                        </div>
+                    </div>
+                    <div class="center">
+                        <div class="circle c5">
+                            <img src="assets/icons8-python.svg" alt="">
+                            <div class="wave"></div>
+                            <div class="letter">90%</div>
+                        </div>
+                    </div>
+                    <div class="center">
+                        <div class="circle c6">
+                            <img src="assets/icons8-figma-100.svg" alt="">
+                            <div class="wave"></div>
+                            <div class="letter">95%</div>
+                        </div>
+                    </div>
+
+                    <div class="center">
+                        <div class="circle c7">
+                            <img src="assets/Adobe-Photoshop-Symbol.png" alt=""
+                                style="object-fit: contain; height: 80px; width: 80px;">
+                            <div class="wave"></div>
+                            <div class="letter">90%</div>
+                        </div>
+                    </div>
+
+                    <div class="center">
+                        <div class="circle c8">
+                            <img src="assets/illustrator_5968522.png" alt=""
+                                style="object-fit: contain; height:50px; width: 50px;">
+                            <div class="wave"></div>
+                            <div class="letter">85%</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="forcircle circle3"></div>
+        </section>
+        <section class="projects-sec" id="project">
+            <div class="project-wrapper">
+                <h1>Projects.
+                    <div class="under-line"></div>
+                </h1>
+                <div class="project-main-wrapper">
+                    <div class="pcontainer">
+                        <div class="pbox1 pbox pb1">
+                            <div class="pinner-wrapper">
+                                <a href="https://rajesh11082005.github.io/Japan/" class="a" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" class="svg">
+                                        <path
+                                            d="M17.657 14.8286L16.2428 13.4143L17.657 12.0001C19.2191 10.438 19.2191 7.90538 17.657 6.34328C16.0949 4.78118 13.5622 4.78118 12.0001 6.34328L10.5859 7.75749L9.17171 6.34328L10.5859 4.92907C12.9291 2.58592 16.7281 2.58592 19.0712 4.92907C21.4143 7.27221 21.4143 11.0712 19.0712 13.4143L17.657 14.8286ZM14.8286 17.657L13.4143 19.0712C11.0712 21.4143 7.27221 21.4143 4.92907 19.0712C2.58592 16.7281 2.58592 12.9291 4.92907 10.5859L6.34328 9.17171L7.75749 10.5859L6.34328 12.0001C4.78118 13.5622 4.78118 16.0949 6.34328 17.657C7.90538 19.2191 10.438 19.2191 12.0001 17.657L13.4143 16.2428L14.8286 17.657ZM14.8286 7.75749L16.2428 9.17171L9.17171 16.2428L7.75749 14.8286L14.8286 7.75749ZM5.77539 2.29303L7.70724 1.77539L8.74252 5.63909L6.81067 6.15673L5.77539 2.29303ZM15.2578 18.3612L17.1896 17.8435L18.2249 21.7072L16.293 22.2249L15.2578 18.3612ZM2.29303 5.77539L6.15673 6.81067L5.63909 8.74252L1.77539 7.70724L2.29303 5.77539ZM18.3612 15.2578L22.2249 16.293L21.7072 18.2249L17.8435 17.1896L18.3612 15.2578Z"
+                                            fill="black" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="pbox2 pbox"></div>
+                    </div>
+                    <div class="pcontainer">
+                        <div class="pbox1 pbox pb2">
+                            <div class="pinner-wrapper">
+                                <a href="https://foxylearn-837935297.development.catalystserverless.com/foxylearn"
+                                    class="a" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" class="svg">
+                                        <path
+                                            d="M17.657 14.8286L16.2428 13.4143L17.657 12.0001C19.2191 10.438 19.2191 7.90538 17.657 6.34328C16.0949 4.78118 13.5622 4.78118 12.0001 6.34328L10.5859 7.75749L9.17171 6.34328L10.5859 4.92907C12.9291 2.58592 16.7281 2.58592 19.0712 4.92907C21.4143 7.27221 21.4143 11.0712 19.0712 13.4143L17.657 14.8286ZM14.8286 17.657L13.4143 19.0712C11.0712 21.4143 7.27221 21.4143 4.92907 19.0712C2.58592 16.7281 2.58592 12.9291 4.92907 10.5859L6.34328 9.17171L7.75749 10.5859L6.34328 12.0001C4.78118 13.5622 4.78118 16.0949 6.34328 17.657C7.90538 19.2191 10.438 19.2191 12.0001 17.657L13.4143 16.2428L14.8286 17.657ZM14.8286 7.75749L16.2428 9.17171L9.17171 16.2428L7.75749 14.8286L14.8286 7.75749ZM5.77539 2.29303L7.70724 1.77539L8.74252 5.63909L6.81067 6.15673L5.77539 2.29303ZM15.2578 18.3612L17.1896 17.8435L18.2249 21.7072L16.293 22.2249L15.2578 18.3612ZM2.29303 5.77539L6.15673 6.81067L5.63909 8.74252L1.77539 7.70724L2.29303 5.77539ZM18.3612 15.2578L22.2249 16.293L21.7072 18.2249L17.8435 17.1896L18.3612 15.2578Z"
+                                            fill="black" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="pbox2 pbox"></div>
+                    </div>
+                    <div class="pcontainer">
+                        <div class="pbox1 pbox pb3">
+                            <div class="pinner-wrapper">
+                                <a href="https://rajesh11082005.github.io/ColoroOn/" class="a" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" class="svg">
+                                        <path
+                                            d="M17.657 14.8286L16.2428 13.4143L17.657 12.0001C19.2191 10.438 19.2191 7.90538 17.657 6.34328C16.0949 4.78118 13.5622 4.78118 12.0001 6.34328L10.5859 7.75749L9.17171 6.34328L10.5859 4.92907C12.9291 2.58592 16.7281 2.58592 19.0712 4.92907C21.4143 7.27221 21.4143 11.0712 19.0712 13.4143L17.657 14.8286ZM14.8286 17.657L13.4143 19.0712C11.0712 21.4143 7.27221 21.4143 4.92907 19.0712C2.58592 16.7281 2.58592 12.9291 4.92907 10.5859L6.34328 9.17171L7.75749 10.5859L6.34328 12.0001C4.78118 13.5622 4.78118 16.0949 6.34328 17.657C7.90538 19.2191 10.438 19.2191 12.0001 17.657L13.4143 16.2428L14.8286 17.657ZM14.8286 7.75749L16.2428 9.17171L9.17171 16.2428L7.75749 14.8286L14.8286 7.75749ZM5.77539 2.29303L7.70724 1.77539L8.74252 5.63909L6.81067 6.15673L5.77539 2.29303ZM15.2578 18.3612L17.1896 17.8435L18.2249 21.7072L16.293 22.2249L15.2578 18.3612ZM2.29303 5.77539L6.15673 6.81067L5.63909 8.74252L1.77539 7.70724L2.29303 5.77539ZM18.3612 15.2578L22.2249 16.293L21.7072 18.2249L17.8435 17.1896L18.3612 15.2578Z"
+                                            fill="black" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="pbox2 pbox"></div>
+                    </div>
+                    <div class="pcontainer">
+                        <div class="pbox1 pbox pb4">
+                            <div class="pinner-wrapper">
+                                <a href="https://rajesh11082005.github.io/pomodoro/" class="a" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" class="svg">
+                                        <path
+                                            d="M17.657 14.8286L16.2428 13.4143L17.657 12.0001C19.2191 10.438 19.2191 7.90538 17.657 6.34328C16.0949 4.78118 13.5622 4.78118 12.0001 6.34328L10.5859 7.75749L9.17171 6.34328L10.5859 4.92907C12.9291 2.58592 16.7281 2.58592 19.0712 4.92907C21.4143 7.27221 21.4143 11.0712 19.0712 13.4143L17.657 14.8286ZM14.8286 17.657L13.4143 19.0712C11.0712 21.4143 7.27221 21.4143 4.92907 19.0712C2.58592 16.7281 2.58592 12.9291 4.92907 10.5859L6.34328 9.17171L7.75749 10.5859L6.34328 12.0001C4.78118 13.5622 4.78118 16.0949 6.34328 17.657C7.90538 19.2191 10.438 19.2191 12.0001 17.657L13.4143 16.2428L14.8286 17.657ZM14.8286 7.75749L16.2428 9.17171L9.17171 16.2428L7.75749 14.8286L14.8286 7.75749ZM5.77539 2.29303L7.70724 1.77539L8.74252 5.63909L6.81067 6.15673L5.77539 2.29303ZM15.2578 18.3612L17.1896 17.8435L18.2249 21.7072L16.293 22.2249L15.2578 18.3612ZM2.29303 5.77539L6.15673 6.81067L5.63909 8.74252L1.77539 7.70724L2.29303 5.77539ZM18.3612 15.2578L22.2249 16.293L21.7072 18.2249L17.8435 17.1896L18.3612 15.2578Z"
+                                            fill="black" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="pbox2 pbox"></div>
+                    </div>
+                    <div class="pcontainer">
+                        <div class="pbox1 pbox pb5">
+                            <div class="pinner-wrapper">
+                                <a href="https://rajesh11082005.github.io/Listify/"
+                                    class="a" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" class="svg">
+                                        <path
+                                            d="M17.657 14.8286L16.2428 13.4143L17.657 12.0001C19.2191 10.438 19.2191 7.90538 17.657 6.34328C16.0949 4.78118 13.5622 4.78118 12.0001 6.34328L10.5859 7.75749L9.17171 6.34328L10.5859 4.92907C12.9291 2.58592 16.7281 2.58592 19.0712 4.92907C21.4143 7.27221 21.4143 11.0712 19.0712 13.4143L17.657 14.8286ZM14.8286 17.657L13.4143 19.0712C11.0712 21.4143 7.27221 21.4143 4.92907 19.0712C2.58592 16.7281 2.58592 12.9291 4.92907 10.5859L6.34328 9.17171L7.75749 10.5859L6.34328 12.0001C4.78118 13.5622 4.78118 16.0949 6.34328 17.657C7.90538 19.2191 10.438 19.2191 12.0001 17.657L13.4143 16.2428L14.8286 17.657ZM14.8286 7.75749L16.2428 9.17171L9.17171 16.2428L7.75749 14.8286L14.8286 7.75749ZM5.77539 2.29303L7.70724 1.77539L8.74252 5.63909L6.81067 6.15673L5.77539 2.29303ZM15.2578 18.3612L17.1896 17.8435L18.2249 21.7072L16.293 22.2249L15.2578 18.3612ZM2.29303 5.77539L6.15673 6.81067L5.63909 8.74252L1.77539 7.70724L2.29303 5.77539ZM18.3612 15.2578L22.2249 16.293L21.7072 18.2249L17.8435 17.1896L18.3612 15.2578Z"
+                                            fill="black" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="pbox2 pbox"></div>
+                    </div>
+                    <div class="pcontainer">
+                        <div class="pbox1 pbox pb6">
+                            <div class="pinner-wrapper">
+                                <a href="https://rajesh11082005.github.io/MonkeyTyping/"
+                                    class="a" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" class="svg">
+                                        <path
+                                            d="M17.657 14.8286L16.2428 13.4143L17.657 12.0001C19.2191 10.438 19.2191 7.90538 17.657 6.34328C16.0949 4.78118 13.5622 4.78118 12.0001 6.34328L10.5859 7.75749L9.17171 6.34328L10.5859 4.92907C12.9291 2.58592 16.7281 2.58592 19.0712 4.92907C21.4143 7.27221 21.4143 11.0712 19.0712 13.4143L17.657 14.8286ZM14.8286 17.657L13.4143 19.0712C11.0712 21.4143 7.27221 21.4143 4.92907 19.0712C2.58592 16.7281 2.58592 12.9291 4.92907 10.5859L6.34328 9.17171L7.75749 10.5859L6.34328 12.0001C4.78118 13.5622 4.78118 16.0949 6.34328 17.657C7.90538 19.2191 10.438 19.2191 12.0001 17.657L13.4143 16.2428L14.8286 17.657ZM14.8286 7.75749L16.2428 9.17171L9.17171 16.2428L7.75749 14.8286L14.8286 7.75749ZM5.77539 2.29303L7.70724 1.77539L8.74252 5.63909L6.81067 6.15673L5.77539 2.29303ZM15.2578 18.3612L17.1896 17.8435L18.2249 21.7072L16.293 22.2249L15.2578 18.3612ZM2.29303 5.77539L6.15673 6.81067L5.63909 8.74252L1.77539 7.70724L2.29303 5.77539ZM18.3612 15.2578L22.2249 16.293L21.7072 18.2249L17.8435 17.1896L18.3612 15.2578Z"
+                                            fill="black" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="pbox2 pbox"></div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section class="review-sec" id="test">
+            <h1>Testimonials.
+                <div class="under-line"></div>
+            </h1>
+            <div class="forcircle circle5"></div>
+            <div class="review-wrapper">
+                <input type="radio" id="featured-1" name="featured" checked>
+                <input type="radio" id="featured-2" name="featured">
+                <input type="radio" id="featured-3" name="featured">
+
+                <div class="cards">
+                    <div class="card card1">
+                        <div class="profile">
+                            <div class="first-circle">
+                                <div class="second-circle">
+                                    <div class="photo photo1"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="name-role-box">
+                            <h1>Vimal</h1>
+                            <p>ZS-Tech Student</p>
+                        </div>
+                        <div class="review-content">
+                            <p style="color: #181818;">
+                                "Rajesh's work is exceptional, effortlessly transforming ordinary concepts into extraordinary creations. His attention to detail and unwavering dedication shine through in every project, be it visual design or development."</p>
+                        </div>
+                    </div>
+                    <div class="card card1">
+                        <div class="profile">
+                            <div class="first-circle">
+                                <div class="second-circle">
+                                    <div class="photo photo2"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="name-role-box">
+                            <h1>Bhanumathi</h1>
+                            <p>ZS Facualty</p>
+                        </div>
+                        <div class="review-content">
+                            <p style="color: #181818;">"Rajesh is truly exceptional in his artistry. With a simple idea, he creates awe-inspiring works of art. His friendly and collaborative nature makes working with him a pleasure. Rajesh doesn't just create art; he crafts experiences that leave a lasting impact."</p>
+                        </div>
+                    </div>
+                    <div class="card card1">
+                        <div class="profile">
+                            <div class="first-circle">
+                                <div class="second-circle">
+                                    <div class="photo photo3"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="name-role-box">
+                            <h1>Veeresh</h1>
+                            <p>ZS-Design Student</p>
+                        </div>
+                        <div class="review-content" style="color: #181818;">
+                            <p>"Working with Rajesh is an absolute joy. His boundless talent and creativity shine through in every project. He has a knack for bringing fresh perspectives to the table and making even mundane topics exciting."</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="forcircle circle6"></div>
+        </section>
+        <section class="contact-us-sec" id="contact">
+            <h1>Contact Me.
+                <div class="under-line"></div>
+            </h1>
+            <div class="icons-wrapper">
+                <div class="icon-box icon-box1">
+                    <a href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none">
+                            <path
+                                d="M17.6569 15.6569L12 21.3137L6.34315 15.6569C3.21895 12.5327 3.21895 7.46734 6.34315 4.34315C9.46734 1.21895 14.5327 1.21895 17.6569 4.34315C20.781 7.46734 20.781 12.5327 17.6569 15.6569ZM5 22H19V24H5V22Z"
+                                fill="#94C8F1" />
+                        </svg>
+                    </a>
+                    <h1>Address</h1>
+                    <p>Zoho Schools, Zoho corporation</p>
+                </div>
+                <div class="icon-box icon-box2">
+                    <a href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none">
+                            <path
+                                d="M3 3H21C21.5523 3 22 3.44772 22 4V20C22 20.5523 21.5523 21 21 21H3C2.44772 21 2 20.5523 2 20V4C2 3.44772 2.44772 3 3 3ZM12.0606 11.6829L5.64722 6.2377L4.35278 7.7623L12.0731 14.3171L19.6544 7.75616L18.3456 6.24384L12.0606 11.6829Z"
+                                fill="#94C8F1" />
+                        </svg>
+                    </a>
+                    <h1>Email</h1>
+                    <p>rajesh.p@zohocorp.com</p>
+                </div>
+                <div class="icon-box icon-box3">
+                    <a href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none">
+                            <path
+                                d="M21 16.42V19.9561C21 20.4811 20.5941 20.9167 20.0705 20.9537C19.6331 20.9846 19.2763 21 19 21C10.1634 21 3 13.8366 3 5C3 4.72371 3.01545 4.36687 3.04635 3.9295C3.08337 3.40588 3.51894 3 4.04386 3H7.5801C7.83678 3 8.05176 3.19442 8.07753 3.4498C8.10067 3.67907 8.12218 3.86314 8.14207 4.00202C8.34435 5.41472 8.75753 6.75936 9.3487 8.00303C9.44359 8.20265 9.38171 8.44159 9.20185 8.57006L7.04355 10.1118C8.35752 13.1811 10.8189 15.6425 13.8882 16.9565L15.4271 14.8019C15.5572 14.6199 15.799 14.5573 16.001 14.6532C17.2446 15.2439 18.5891 15.6566 20.0016 15.8584C20.1396 15.8782 20.3225 15.8995 20.5502 15.9225C20.8056 15.9483 21 16.1633 21 16.42Z"
+                                fill="#94C8F1" />
+                        </svg>
+                    </a>
+                    <h1>Phone
+                    </h1>
+                    <p>+91 7200430909</p>
+                </div>
+            </div>
+            <div class="inp">
+                <form class="contact_form">
+                    <div class="inp-inner-div">
+                        <input class="t1 name" type="text" placeholder="Name">
+                        <input class="t1 email" type="email" placeholder="Email">
+                    </div>
+                    <textarea name="Message" class="msg" id="" class="t2" rows="10" placeholder="Message"></textarea>
+                    <!-- <input type="submit" id="sub" style="display: none;"> -->
+                </form>
+                <div class="contact c">
+                    <button class="submit-bt">Submit</button>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+<footer class="footer">
+    <div class="fwaves">
+        <div class="fwave" id="fwave1"></div>
+        <div class="fwave" id="fwave2"></div>
+        <div class="fwave" id="fwave3"></div>
+        <div class="fwave" id="fwave4"></div>
+    </div>
+    <div class="social-icon">
+        <span class="social-icon__item">
+            <a class="social-icon__link" href="https://www.facebook.com/prajesh.rajesh.94043/" target="_blank">
+                <svg width="30" height="30" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M14 13.5H16.5L17.5 9.5H14V7.5C14 6.47062 14 5.5 16 5.5H17.5V2.1401C17.1743 2.09685 15.943 2 14.6429 2C11.9284 2 10 3.65686 10 6.69971V9.5H7V13.5H10V22H14V13.5Z"
+                        fill="#fff" />
+                </svg>
+            </a>
+        </span>
+        <span class="social-icon__item">
+            <a class="social-icon__link" href="https://www.instagram.com/rxj_xofcl._/" target="_blank">
+                <svg width="30" height="30" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M12.001 9C10.3436 9 9.00098 10.3431 9.00098 12C9.00098 13.6573 10.3441 15 12.001 15C13.6583 15 15.001 13.6569 15.001 12C15.001 10.3427 13.6579 9 12.001 9ZM12.001 7C14.7614 7 17.001 9.2371 17.001 12C17.001 14.7605 14.7639 17 12.001 17C9.24051 17 7.00098 14.7629 7.00098 12C7.00098 9.23953 9.23808 7 12.001 7ZM18.501 6.74915C18.501 7.43926 17.9402 7.99917 17.251 7.99917C16.5609 7.99917 16.001 7.4384 16.001 6.74915C16.001 6.0599 16.5617 5.5 17.251 5.5C17.9393 5.49913 18.501 6.0599 18.501 6.74915ZM12.001 4C9.5265 4 9.12318 4.00655 7.97227 4.0578C7.18815 4.09461 6.66253 4.20007 6.17416 4.38967C5.74016 4.55799 5.42709 4.75898 5.09352 5.09255C4.75867 5.4274 4.55804 5.73963 4.3904 6.17383C4.20036 6.66332 4.09493 7.18811 4.05878 7.97115C4.00703 9.0752 4.00098 9.46105 4.00098 12C4.00098 14.4745 4.00753 14.8778 4.05877 16.0286C4.0956 16.8124 4.2012 17.3388 4.39034 17.826C4.5591 18.2606 4.7605 18.5744 5.09246 18.9064C5.42863 19.2421 5.74179 19.4434 6.17187 19.6094C6.66619 19.8005 7.19148 19.9061 7.97212 19.9422C9.07618 19.9939 9.46203 20 12.001 20C14.4755 20 14.8788 19.9934 16.0296 19.9422C16.8117 19.9055 17.3385 19.7996 17.827 19.6106C18.2604 19.4423 18.5752 19.2402 18.9074 18.9085C19.2436 18.5718 19.4445 18.2594 19.6107 17.8283C19.8013 17.3358 19.9071 16.8098 19.9432 16.0289C19.9949 14.9248 20.001 14.5389 20.001 12C20.001 9.52552 19.9944 9.12221 19.9432 7.97137C19.9064 7.18906 19.8005 6.66149 19.6113 6.17318C19.4434 5.74038 19.2417 5.42635 18.9084 5.09255C18.573 4.75715 18.2616 4.55693 17.8271 4.38942C17.338 4.19954 16.8124 4.09396 16.0298 4.05781C14.9258 4.00605 14.5399 4 12.001 4ZM12.001 2C14.7176 2 15.0568 2.01 16.1235 2.06C17.1876 2.10917 17.9135 2.2775 18.551 2.525C19.2101 2.77917 19.7668 3.1225 20.3226 3.67833C20.8776 4.23417 21.221 4.7925 21.476 5.45C21.7226 6.08667 21.891 6.81333 21.941 7.8775C21.9885 8.94417 22.001 9.28333 22.001 12C22.001 14.7167 21.991 15.0558 21.941 16.1225C21.8918 17.1867 21.7226 17.9125 21.476 18.55C21.2218 19.2092 20.8776 19.7658 20.3226 20.3217C19.7668 20.8767 19.2076 21.22 18.551 21.475C17.9135 21.7217 17.1876 21.89 16.1235 21.94C15.0568 21.9875 14.7176 22 12.001 22C9.28431 22 8.94514 21.99 7.87848 21.94C6.81431 21.8908 6.08931 21.7217 5.45098 21.475C4.79264 21.2208 4.23514 20.8767 3.67931 20.3217C3.12348 19.7658 2.78098 19.2067 2.52598 18.55C2.27848 17.9125 2.11098 17.1867 2.06098 16.1225C2.01348 15.0558 2.00098 14.7167 2.00098 12C2.00098 9.28333 2.01098 8.94417 2.06098 7.8775C2.11014 6.8125 2.27848 6.0875 2.52598 5.45C2.78014 4.79167 3.12348 4.23417 3.67931 3.67833C4.23514 3.1225 4.79348 2.78 5.45098 2.525C6.08848 2.2775 6.81348 2.11 7.87848 2.06C8.94514 2.0125 9.28431 2 12.001 2Z"
+                        fill="#fff" />
+                </svg>
+            </a>
+            <span>
+                <span class="social-icon__item">
+                    <a class="social-icon__link" href="https://www.linkedin.com/in/rajesh-p-4b3908241/" target="_blank">
+                        <svg width="30" height="30" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M6.94048 4.99993C6.94011 5.81424 6.44608 6.54702 5.69134 6.85273C4.9366 7.15845 4.07187 6.97605 3.5049 6.39155C2.93793 5.80704 2.78195 4.93715 3.1105 4.19207C3.43906 3.44699 4.18654 2.9755 5.00048 2.99993C6.08155 3.03238 6.94097 3.91837 6.94048 4.99993ZM7.00048 8.47993H3.00048V20.9999H7.00048V8.47993ZM13.3205 8.47993H9.34048V20.9999H13.2805V14.4299C13.2805 10.7699 18.0505 10.4299 18.0505 14.4299V20.9999H22.0005V13.0699C22.0005 6.89993 14.9405 7.12993 13.2805 10.1599L13.3205 8.47993Z"
+                                fill="#fff" />
+                        </svg>
+                    </a>
+                </span>
+                <span class="social-icon__item">
+                    <a class="social-icon__link" href="https://twitter.com/Executionhacker" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path
+                                d="M18.2048 2.25H21.5128L14.2858 10.51L22.7878 21.75H16.1308L10.9168 14.933L4.95084 21.75H1.64084L9.37084 12.915L1.21484 2.25H8.04084L12.7538 8.481L18.2048 2.25ZM17.0438 19.77H18.8768L7.04484 4.126H5.07784L17.0438 19.77Z"
+                                fill="#fff" />
+                        </svg>
+                    </a>
+                </span>
+    </div>
+    <div class="menu">
+        <span class="menu__item"><a class="menu__link" href="#home">Home</a></span>
+        <span class="menu__item"><a class="menu__link" href="#about">About</a></span>
+        <span class="menu__item"><a class="menu__link" href="#project">Projects</a></span>
+        <span class="menu__item"><a class="menu__link" href="#test">Testimonials</a></span>
+        <span class="menu__item"><a class="menu__link" href="#contact">Contact</a></li>
+    </div>
+    <p>&copy;2023 Rajesh | All Rights Reserved</p>
+</footer>
+<script>
+    var typing = new Typed(".text", {
+        strings: ["Rajesh", "A ZS Student", "A Developer", "A Designer", "Web Designer", "An Artist"],
+        typeSpeed: 100,
+        backSpeed: 50,
+        loop: true,
+        showCursor: false,
+    });
+
+    function addClickEventToElements(selector, activeClass, wish) {
+        document.querySelectorAll(selector).forEach(function (element) {
+            element.addEventListener("click", function () {
+                if (wish === "add") {
+                    element.classList.add(activeClass);
+                }
+                else if (wish === "toggle") {
+                    element.classList.toggle(activeClass);
+                }
+                document.querySelectorAll(selector).forEach(function (element2) {
+                    if (element2 !== element) {
+                        element2.classList.remove(activeClass);
+                    }
+                });
+            });
+        });
+    }
+
+    addClickEventToElements(".list-wrapper > li", "li-active", "add");
+</script>
+
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+<script>
+    const form = document.querySelector('.contact_form')
+
+    function sendMsg(e) {
+        // e.preventDefault();
+        const name = document.querySelector('.name'),
+            email = document.querySelector('.email'),
+            msg = document.querySelector('.msg');
+
+        Email.send({
+            SecureToken: "afd40d49-79ce-4ac9-aaa3-3107ddc806d4",
+            To: 'rajesh.p@zohocorp.com ',
+            From: "rajesh007.2005@gmail.com",
+            Subject: "Contact from my portfolio! ",
+            Body: `Email : ${email.value}\nName: ${name.value}\n${msg.value}`
+        }).then(
+
+            (message) => {
+                name.value = ""
+                email.value = ""
+                msg.value = ""
+                alert("Mail Sent!")
+            }
+        );
+    }
+
+    document.querySelector(".submit-bt").addEventListener("click", sendMsg)
+
+</script>
+
+</html>

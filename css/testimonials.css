@@ -1,0 +1,301 @@
+.review-sec{
+    height: 70vh;
+    padding: 1em;
+    position: relative;
+    /* background-color:red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    width: 92%;
+    margin: auto;
+}
+.review-sec > h1{
+    text-align: center;
+}
+.review-wrapper{
+    height: 55vh;
+    width: 100%;
+    /* border: 2px solid; */
+    /* border: 1px solid rgba(0, 0, 0, 0.3); */
+    position: relative;
+    overflow: hidden;
+}
+.review-content{
+    text-align: center;
+    padding: 1rem;
+}
+.cards{
+    display: flex;
+    transition: 0.4s;
+    width: 300%;
+}
+.card{
+    flex-basis: 100%;
+    /* border: 2px solid; */
+    height: 50vh;
+    color: rgb(51, 47, 47);
+    border-radius: 20px;
+    background-color:#98c6eb43;
+    /* box-shadow: 0 4px 30px rgba(39, 38, 38, 0.1); */
+    /* backdrop-filter: blur(15px); */
+}
+.name-role-box{
+    text-align: center;
+}
+.profile {
+    height: 35%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* border: 2px solid; */
+    align-items: center;
+}
+
+.first-circle {
+    height: 125px;
+    width: 125px;
+    border: 2px solid #98c6eb;
+    border-bottom: none;
+    border-left: none;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.second-circle {
+    height: 115px;
+    width: 115px;
+    border: 2px solid #98c6eb;
+    border-top: none;
+    border-right: none;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo {
+    height: 95px;
+    width: 95px;
+    border-radius: 100%;
+    background-image: url("../assets/veeresh.png");
+    background-position: 3px;
+    background-size: cover;
+}
+.photo1{
+    background-image: url("../assets/vimal.jpeg");
+}
+.photo2{
+    background-image: url("../assets/bhanusan.jpeg");
+}
+input[type="radio"] {
+    position: absolute;
+    display: inline-block;
+    right: 58%;
+    bottom: 0;
+    z-index: 2;
+    accent-color: #98c6eb;
+    /* outline:none; */
+}
+
+input[type="radio"]:nth-child(2) {
+    right: 42%;
+}
+
+input[type="radio"]:nth-child(3) {
+    right: 50%;
+}
+
+input[type="radio"]:nth-child(1):checked~.cards {
+    transform: translate(0%);
+}
+input[type="radio"]:nth-child(3):checked~.cards {
+    transform: translate(-33.3%);
+}
+input[type="radio"]:nth-child(2):checked~.cards {
+    transform: translate(-66.6%);
+}
+.circle5{
+    background-image: url("../assets/Ellipse\ 690\ \(4\).svg");
+    right: 0;
+    top: 5vh;
+}
+.circle6{
+    background-image: url("../assets/Ellipse\ 690\ \(3\).svg");
+    left: 0;
+    bottom: 5vh;
+}
+@media screen and (max-width: 385px) and (min-width:300px) {
+    .review-sec {
+        height: 100vh;
+    }
+    .review-wrapper{
+        height: 80vh;
+    }
+
+    .card{
+        height: 70vh;
+    }
+}
+
+@media screen and (max-width:299px) and (min-width:250px) {
+    .review-sec {
+        height: 125vh;
+    }
+
+    .review-wrapper {
+        height: 100vh;
+    }
+
+    .card {
+        height: 95vh;
+    }
+
+}
+@media screen and (max-width:768px) and (min-width:481px) {
+    .review-sec{
+        /* border: 2px solid; */
+        height: 650px;
+    }
+    .review-wrapper{
+        height: 550px;
+    }
+    .name-role-box>h1{
+        font-size:2rem;
+    }
+    .card{
+        /* border: 2px solid; */
+        height:500px;
+    }
+    .name-role-box>p{
+        font-size: 1.1rem;
+        width: 80%;
+        margin: auto;
+ 
+    }
+    .review-content{
+        font-size: 1.1rem;
+    }
+    .profile{
+        height: 40%;
+    }
+    .circle5{
+        top: 10vh;
+    }
+}
+
+@media screen and (max-width:1024px) and (min-width:769px) {
+    .review-sec{
+        height: 750px;
+    }
+    .card{
+        height:500px;
+        /* border: 2px solid; */
+    }
+    .name-role-box>h1{
+        font-size:1.6rem;
+    }
+    .name-role-box>p{
+        font-size: 1.1rem;
+    }
+    .review-content{
+        font-size: 1rem;
+        width: 80%;
+        margin: auto;
+    }
+    .review-wrapper{
+        height: 580px;
+    }
+    .profile{
+        height: 50%;
+    }
+    .first-circle{
+        height: 145px;
+        width: 145px;
+    }
+    .second-circle{
+        height: 135px;
+        width: 135px;
+    }
+    .photo{
+        height: 125px;
+        width: 125px;
+    }
+    input[type="radio"] {
+        right: 53%;
+    }
+
+    input[type="radio"]:nth-child(2) {
+        right: 47%;
+    }
+
+    input[type="radio"]:nth-child(3) {
+        right: 50%;
+    }
+    .circle5{
+        top: 12vh;
+    }
+    .circle6{
+        bottom: 7vh;
+    }
+}
+
+@media screen and (max-width:3000px) and (min-width:1025px) {
+    .review-sec{
+        height: 700px;
+        /* border: 2px solid; */
+    }
+    .card{
+        height:450px;
+        /* border: 2px solid; */
+    }
+    .name-role-box>h1{
+        font-size:1.6rem;
+    }
+    .name-role-box>p{
+        font-size: 1.1rem;
+    }
+    .review-content{
+        font-size: 1.11rem;
+        width: 80%;
+        margin: auto;
+    }
+    .review-wrapper{
+        height: 530px;
+    }
+    .profile{
+        height: 50%;
+    }
+    .first-circle{
+        height: 145px;
+        width: 145px;
+    }
+    .second-circle{
+        height: 135px;
+        width: 135px;
+    }
+    .photo{
+        height: 125px;
+        width: 125px;
+    }
+    input[type="radio"] {
+        right: 53%;
+    }
+
+    input[type="radio"]:nth-child(2) {
+        right: 47%;
+    }
+
+    input[type="radio"]:nth-child(3) {
+        right: 50%;
+    }
+    .circle5{
+        top: 12vh;
+    }
+    .circle6{
+        bottom: 7vh;
+    }
+}
+

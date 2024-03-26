@@ -1,0 +1,257 @@
+.contact-us-sec {
+    height: 133vh;
+    padding: 0.8rem;
+    width: 90%;
+    margin: auto;
+}
+
+.contact-us-sec>h1 {
+    text-align: center;
+    padding: 1rem;
+}
+
+.icons-wrapper {
+    height: 60vh;
+    background-color: #e2edf6;
+    border-radius: 20px;
+    /* border: 2px solid; */
+}
+
+.icon-box {
+    padding: 1em;
+    height: 33.3%;
+    text-align: center;
+    /* border: 2px solid; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.icon-box>a {
+    height: 55px;
+    width: 55px;
+    padding: 4px;
+    background-color: #ffffff;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+}
+
+.icon-box>a>svg>path {
+    transition: 0.3s;
+}
+
+.icon-box:hover a {
+    background-color: #98c6eb;
+}
+
+.icon-box:hover a>svg>path {
+    fill: rgb(32, 32, 32);
+}
+
+.inp {
+    height: 45vh;
+    /* border: 2px solid; */
+}
+
+.inp>form {
+    margin-top: 20px;
+    width: 100%;
+    height: 45vh;
+}
+
+.inp>form {
+    /* border: 2px solid; */
+    height: 37vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.inp>form>textarea {
+    height: 200px;
+    width: 100%;
+    font-size: 1.1rem;
+    padding: 1rem;
+    border: none;
+    border-radius: 0 10px 10px 10px;
+    outline: none;
+    padding: 1rem;
+    background-color: #98c6eb43;
+    resize: none;
+}
+
+.inp>form>div {
+    margin: 0 auto;
+    width: 100%;
+    height: 130px;
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    justify-content: space-between;
+    /* flex-wrap: nowrap; */
+}
+
+.inp>form>div>input {
+    width: 100%;
+    height: 50px;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 0 10px 10px 10px;
+    outline: none;
+    padding: 1rem;
+    background-color: #98c6eb43;
+}
+
+.contact {
+    /* text-align: center; */
+    margin: auto;
+    width: 100%;
+    height: 70px;
+    /* border: 2px solid; */
+    padding: 10px 0px;
+}
+
+.contact>button {
+    /* height: 30px; */
+    /* font-size: 1rem; */
+    margin-top: 8px;
+    padding: 10px;
+    width: 100px;
+    border: none;
+    border-radius: 0 10px 10px 10px;
+    background-color: #98c6eb;
+}
+
+@media screen and (max-width: 385px) and (min-width:300px) {
+    .contact-us-sec {
+        height: 165vh;
+    }
+
+    .icons-wrapper {
+        height: 70vh;
+    }
+
+    .inp {
+        height: 55vh;
+    }
+
+    .inp>form {
+        height: 47vh;
+    }
+}
+
+@media screen and (max-width:299px) and (min-width:250px) {
+    .contact-us-sec {
+        height: 170vh;
+    }
+
+    .icons-wrapper {
+        height: 70vh;
+    }
+
+    .inp {
+        height: 60vh;
+    }
+
+    .inp>form {
+        height: 57vh;
+    }
+
+    .icon-box p {
+        font-size: 0.8rem;
+        text-align: center;
+    }
+
+    .icon-box h1 {
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width:1024px) and (min-width:769px) {
+    .contact-us-sec {
+        height: 155vh;
+    }
+
+    .inp>form>div {
+        width: 100%;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .inp {
+        height: 45vh;
+    }
+
+    .inp>form {
+        height: 35vh;
+    }
+
+    .inp>form>div>input {
+        width: 49%;
+    }
+
+    .icons-wrapper {
+        height: 75vh;
+    }
+    .inp-inner-div{
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width:3000px) and (min-width:1025px) {
+    .contact-us-sec {
+        height: 90vh;
+    }
+
+    .inp-inner-div{
+        margin-bottom: 10px;
+    }
+
+    .inp>form>div {
+        width: 100%;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .inp {
+        height: 40vh;
+    }
+
+    .inp>form {
+        height: 25vh;
+    }
+
+    .inp>form>div>input {
+        width: 49%;
+    }
+
+    .icons-wrapper {
+        height: 30vh;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .icon-box {
+        width: 30%;
+        height: 100%;
+        justify-content: center;
+    }
+}
+
+.inp-inner-div{
+    margin-bottom: 12px !important;
+}

@@ -1,0 +1,155 @@
+.skill-sec{
+    height: 800px;
+    position: relative;
+}
+.skill-wrapper {
+    width: 90%;
+    height:700px;
+    margin: auto;
+    background-color: #98c6eb43;
+    border-radius: 15px;
+}
+
+.skill-wrapper>h1 {
+    font-size: 2rem;
+    text-align: center;
+    padding: 1rem;
+}
+
+.skills-bar {
+    height: 65%;
+    width: 97%;
+    /* border: 2px solid; */
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.center {
+    width: 100px;
+    height: 100px;
+}
+
+.circle {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    /* border: 2px solid; */
+    border-radius: 50%;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.wave {
+    background-color: #98c6eb;
+    position: absolute;
+    top: 110%;
+    height: 200%;
+    width: 200%;
+    border-radius: 38%;
+    left: -50%;
+    transform: rotate(360deg);
+    transition: all 2s ease;
+    animation: wave 22s linear infinite;
+}
+
+@keyframes wave {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(3600deg);
+    }
+}
+
+.c1:hover .wave {
+    top: 10%;
+}
+
+.c2:hover .wave {
+    top: 15%;
+}
+
+.c3:hover .wave {
+    top: 5%;
+}
+
+.c4:hover .wave {
+    top: 15%;
+}
+
+.c5:hover .wave {
+    top: 10%;
+}
+
+.c6:hover .wave {
+    top: 5%;
+}
+
+.c7:hover .wave {
+    top: 15%;
+}
+.c8:hover .wave {
+    top: 10%;
+}
+
+.circle>img {
+    height: 50px;
+    width: 50px;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 52%;
+    left: 50%;
+}
+
+.letter {
+    text-align: center;
+    transform: translatey(600%);
+    transition: 2s ease;
+}
+
+.circle:hover .letter {
+    transform: translatey(130%);
+    transition-delay: 0.5s;
+}
+@media screen and (max-width: 385px) and (min-width:300px) {
+    .center{
+        height: 90px;
+        width: 90px;
+    }
+}
+@media screen and (max-width:299px) and (min-width:250px) {
+    .center{
+        height: 85px;
+        width: 85px;
+    }
+}
+@media screen and (max-width:768px) and (min-width:481px){
+    .skill-sec{
+        height: 500px;
+    }
+    .skill-wrapper{
+        height: 400px;
+    }
+}
+@media screen and (max-width:1024px) and (min-width:769px) {
+    .skill-sec{
+        height: 350px;
+        /* border: 2px solid; */
+    }
+    .skill-wrapper{
+        height: 300px;
+    }
+}
+@media screen and (max-width:3000px) and (min-width:1025px) {
+    .skill-sec{
+        height: 400px;
+    }
+    .skill-wrapper{
+        height: 300px;
+    }
+}
